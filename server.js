@@ -14,7 +14,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-   origin: ['http://localhost:8080', 'https://teacherjob-portal-backend.onrender.com'],
+   origin: ['http://localhost:8080', 'https://teacherjob-portal-backend.onrender.com/api/'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'Cookie']
