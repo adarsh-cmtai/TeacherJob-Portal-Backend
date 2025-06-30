@@ -14,7 +14,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-   origin: ['http://localhost:8080', 'https://teacher-job-portal.vercel.app'],
+   origin: ['http://localhost:8080', 'https://teacher-job-portal.vercel.app','https://teacher-job-frontend.vercel.app'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'Cookie']
